@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+}
+nav {
+    marker: 0 auto;
+    text-align: center;
+}
+a[target] {
+    font-weight: bold;
+    }
+footer {
+    text-align: center;
+}
