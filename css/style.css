@@ -7,10 +7,27 @@ header {
 nav {
     marker: 0 auto;
     text-align: center;
+    list-style: none;
 }
 a[target] {
     font-weight: bold;
     }
 footer {
     text-align: center;
+    background: rebeccapurple;
+}
+main article section {
+    float: left;
+    margin: 10px;
+    border: 4px groove   rebeccapurple ;
+    background: #333333;
+}
+article {
+    background: red;
+}
+article ul, article ol {
+    list-style: none;
+}
+body table {
+    background: rosybrown;
 }
