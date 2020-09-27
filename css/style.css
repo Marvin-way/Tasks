@@ -1,27 +1,24 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
+header, header nav {
     text-align: center;
-}
-nav {
-    marker: 0 auto;
-    text-align: center;
-    list-style: none;
 }
 a[target] {
     font-weight: bold;
+    font-size: large    ;
     }
 footer {
     text-align: center;
     background: rebeccapurple;
+    clear: both;
 }
-main article section {
+article section {
     float: left;
     margin: 10px;
     border: 4px groove   rebeccapurple ;
-    background: #333333;
-}
+    background: rgb( 200,100, 100, .8) ;
+}   
 article {
     background: red;
 }
@@ -30,4 +27,8 @@ article ul, article ol {
 }
 body table {
     background: rosybrown;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
 }
